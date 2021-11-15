@@ -1,4 +1,4 @@
-# 3![Apache-2.0](https://img.shields.io/badge/license-Apache-2.0-brightgreen "Badge")
+# 3![Apache-2.0](https://img.shields.io/static/v1?label=license&message=Apache-2.0&color=brightgreen "Badge")
 
 ## Description
 
