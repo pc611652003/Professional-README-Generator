@@ -41,7 +41,7 @@ function renderLicenseBadge(license) {
     case 'None':
       return "";
   }
-  return `https://img.shields.io/badge/license-${badgeMessage}-brightgreen`;
+  return `![${badgeMessage}](https://img.shields.io/badge/license-${badgeMessage}-brightgreen "Badge")`;
 }
 
 // TODO: Create a function that returns the license link
@@ -93,7 +93,7 @@ You can find more of my work at [${username}](${githubLink}).
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}(${renderLicenseBadge(data.license)})
+  return `# ${data.title}${renderLicenseBadge(data.license)}
 
 ## Description
 ${renderDescriptionSection(data.description)}
