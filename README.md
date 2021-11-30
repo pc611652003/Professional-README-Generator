@@ -2,11 +2,11 @@
 
 Video Link: https://watch.screencastify.com/v/LNrgJAlpRPkTB3Yh5ihT
 
+Generated Example README.md: https://github.com/pc611652003/Professional-README-Generator/blob/main/dist/README.md
+
 Repository: https://github.com/pc611652003/Professional-README-Generator
 
-Generated README.md: https://github.com/pc611652003/Professional-README-Generator/blob/main/README.md
-
-Application README: https://github.com/pc611652003/Professional-README-Generator/blob/main/README2.md
+Application Detail README: https://github.com/pc611652003/Professional-README-Generator/blob/main/README.md
 
 ## Screenshot
 
