@@ -1,63 +1,28 @@
-# Professional-README-Generator![MIT](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen "Badge")
+# Professional README Generator
 
-## Description
+Video Link: https://watch.screencastify.com/v/LNrgJAlpRPkTB3Yh5ihT
 
-Week 9 Challenge
-    
-## Table of Contents
+Repository: https://github.com/pc611652003/Professional-README-Generator
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Features](#features)
-* [Credits](#credits)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+Generated README.md: https://github.com/pc611652003/Professional-README-Generator/blob/main/README.md
 
-## Installation
+Application README: https://github.com/pc611652003/Professional-README-Generator/blob/main/README2.md
 
-To install necessary dependencies, run the following commands:
-npm i
-    
-## Usage
+## Screenshot
 
-    
-    
-## Features
+The application will be launched by using command 'node index'.
+It will ask user to input GitHub username, email, project name, description of the project.
+Then it will ask user to choose 1 of the license from the list.
+![First Part](screenshots/screenshot01.PNG "First 5 questions")
 
- - allow to add collaborator
- - allow to add third-party asset
- - allow to add tutorial
- - allow to add feature
+After choosing license, user will be asked to input commands for installation and testing.
+User also will be ask to describe what is need to know about using the repo or contributing to the repo.
+Then, user will be ask for additional details
+![Second Part](screenshots/screenshot02.PNG "Next 4 questions")
 
-## Credits
+For additional details, user will be asked for info of collaborators, third-party assets, tutorials, and features.
+User can repeatingly add these info until answering no.
+![Third Part](screenshots/screenshot03.PNG "4 set of questions")
 
-Collaborators:
-Name: Xander Rapstine, GitHub Profile: [https://github.com/Xandromus](https://github.com/Xandromus)
-
-Third-Party Assets:
-Asset Name: inquirer, Creator: npm, Web: [https://npmjs.com/](https://npmjs.com/)
-
-Tutorials:
-Tutorial Name: Week 9 module, Link: [https://courses.bootcampspot.com/courses/744/external_tools/58](https://courses.bootcampspot.com/courses/744/external_tools/58)
-
-## License
-
-This project is licensed under the MIT License.
-License Readme Link: [https://spdx.org/licenses/MIT.html](https://spdx.org/licenses/MIT.html)
-    
-## Contributing
-
-no plagiarism}
-    
-## Tests
-
-To test the application, run the following commands:
-npm test
-    
-## Questions
-
-If you have any questions about the repo, open an issueor contact me directly at pc611652003@hotmail.com.
-You can find more of my work at [pc611652003](https://github.com/pc611652003).
-    
+After user finished inputting features, the application will alert user when the README file is ready for review.
+![Fourth Part](screenshots/screenshot04.PNG "Alert message")

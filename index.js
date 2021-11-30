@@ -296,7 +296,7 @@ function writeToFile(fileName, data) {
     
     const readmeText = generateMarkdown(data);
 
-    fs.writeFile(`./${fileName}`, readmeText, err => {
+    fs.writeFile(`./dist/${fileName}`, readmeText, err => {
         if (err) throw err;
         console.log(`${fileName} is generated. Please check and confirm the result.`);
     })
